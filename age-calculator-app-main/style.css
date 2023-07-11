@@ -6,3 +6,63 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    background-color:hsl(0, 5%, 67%) ;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    /* text-align: center; */
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 600px;
+    padding: 30px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 15px 15px 150px 15px ;
+}
+
+.input-section{
+    width: 80%;
+}
+.form-section input{
+    padding: 15px;
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0.3px solid grey;
+   margin: 10px 0;
+}
+
+.form-section label {
+    font-size: 12px;
+    color: grey;
+    letter-spacing: 2px;
+}
+.form-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.design p{
+    font-size: 70px;
+    font-weight: bold;
+ font-style: italic;
+}
+
+.design span{
+    color:hsl(259, 100%, 65%) ;
+}
+
+hr{
+    margin-top: 20px;
+}
